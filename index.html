@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64203c9adb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+         <h3><span>Ajay</span></h3>  
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+           </nav>
+            <div class="header-text"><br><br><br>
+                <p>Web Developer & Software Developer</p>
+                <h1><span>Hi,I'm AjayKumar Reddy</span><br>Graduated</h1>
+            </div>
+        </div>
+    </div>
+
+<!----------------ABOUT----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Img1/Ajay1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h4 class="sub-title">About Me</h4></br></h4>
+                    <p class="Home">A front-end developer with Entry-level experience specializing in web devlopment.
+                        Corrdinate with web development team to design UI for client websites using HTML,Javascript, and React js.While my educational
+                        journey has primarily revolved around Computer Science and Engineering, my true passion lies in the world of data and analytics.
+                        Proficient in Python,SQL.I possess a versatile skill set that allows me to tackle complex data challenges.
+                        </p>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <li><span>Web Technologies</span><br>HTMl,CSS and Javascript</li>
+                            <li><span>Programming Languages</span><br>JAVA,C,PYTHON</li>
+                            <li><span>Database Technologies</span><br>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2019-2023</span><br>Computer science and engineering : CGPA-7.11</li>
+                            <li><span>2017-2019</span><br>Telangana State Board of Intermediate Education : Marks-935</li>
+                            <li><span>2016-2017</span><br>Board of Secondary Education,Telangana : GPA-9.2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------    services ------------------>
+
+<div id="services">
+   <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>As a passionate web devloper.I am a highly analytical web developer
+                with expertise in HTML,CSS,Javascript and various front-end frameworks.
+                I develop dynamic and responsive interfaces that meet client needs.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Software Developer</h2>
+            <p>Recent Computer science and engineering graduate with fundamental 
+                knowledge of programming languages like C++,Java and Python.
+                seeking to utilize broad educational background with excellent technical skills.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+   </div>
+</div>
+
+<!--------------Portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">portfolio</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="Img1/shopping.jpg">
+                <div class="layer">
+                    <h3>ShopingCart App</h3>
+                    <p>Creating an e-commerce website using HTML, CSS, and JavaScript showcases proficiency in web development,
+                         including design, styling, and interactive features. This project demonstrates practical skills and is
+                          a valuable addition to a resume for roles in web development or related fields.
+                    </p>
+                    <a href="https://github.com/Ajayreddy288/Ecommerce-websites.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+            <img src="Img1/cloudyy.jpeg">
+            <div class="layer">
+                <h3>Weather App</h3>
+                <p>Weather App is the application of science and technology to predict the conditions of the atmosphere
+                    for a giveb location and time.
+                </p>
+                <a href="https://github.com/Ajayreddy288/Weather-Application.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work"> 
+                <img src="Img1/amzonn.jpeg">
+                <div class="layer">
+                    <h3>Amazon_sales_analysis
+                    </h3>
+                    <p>Proficient in analyzing Amazon sales data utilizing Python libraries such as pandas for data manipulation,
+                         NumPy for numerical operations, and Matplotlib for visualization. Skilled in extracting meaningful insights
+                        through data preprocessing, exploratory analysis, and metric calculation, culminating in clear and concise reporting.
+                    </p>
+                    <a href="https://github.com/Ajayreddy288/Amazon_sales_analysis.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------------------CONTACT-------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ajaybheemreddy288@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 8096283060</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Ajayreddy288"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bheemreddy-ajay-kumar-reddy-b759bb25a"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Img1/AJAY's Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-----------------------------Script-------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+       {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
